@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabola Features Calc</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://www.flaticon.com/svg/static/icons/svg/3426/3426679.svg" type="image/png" rel="icon">
+    <script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+</head>
+<body>
+    <center>
+        <div class="title-wrapper">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/3426/3426679.svg"><br/>
+            Parbola Features Calculator
+        </div>
+        <div class="creds">
+            <a href="https://www.youtube.com/channel/UCinBnZ2BKAbCKA1w9lmFd0w?view_as" title="View My Youtube Channel" target="_Blank">
+            <div class="img-wrapper">
+                <img src="https://lh3.googleusercontent.com/ogw/ADGmqu-IFskbfepT-9VDtc1IR8r_F8dlR1BmtjLrzQM-1A=s83-c-mo">
+            </div>
+        </a>
+            Developed by Geahad Haymor
+        </div>
+        <div class="panel">
+            <div class="steps-bool">
+                Show Steps: 
+                <label class="switch">
+                    <input id="steps-bool" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div><br/>
+            <select class="select"><option>Directrix form: X or Y</option><option>X</option><option>Y</option></select><br/>
+            <input type="number" class="inp" placeholder="Directrix value..."><br/>
+            <input type="number" class="inp" id="" placeholder="Focus X..."><br/>
+            <input type="number" class="inp" id="" placeholder="Focus Y..."><br/>
+            <div id="submit">Find Features</div><br/>
+            <div class="error-panel"></div>
+        </div>
+        <div class="answr-panel"></div>
+        <div id="calculator"></div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
