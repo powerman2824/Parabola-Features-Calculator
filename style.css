@@ -151,11 +151,6 @@ body{
     transition: all 0.7s;
     transition-property: content,border-radius;
 }
-.img-wrapper:hover{
-    content: url("https://www.flaticon.com/svg/static/icons/svg/1384/1384060.svg");
-    border-radius: 0%;
-    transition: all 0.7s;
-}
 
 .img-wrapper img{
     width: 100%;
